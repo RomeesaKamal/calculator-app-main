@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Calculator app</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(0, 82%, 37%);
+      }
+    </style>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="calculator">
+      <div class="header">
+        <div class="title">calc</div>
+        <div class="theme-label">THEME</div>
+        <div class="theme-controls">
+          <div class="theme-options">
+            <span>1</span>
+            <span>2</span>
+            <span>3</span>
+          </div>
+          <div class="toggle-switch" id="toggleSwitch">
+            <div class="toggle-knob"></div>
+          </div>
+        </div>
+      </div>
+      <input type="text" placeholder="0" id="inputBox" />
+      <div class="calculatorBtn">
+        <div>
+          <button>7</button>
+          <button>8</button>
+          <button>9</button>
+          <button class="operator">DEL</button>
+        </div>
+        <div>
+          <button>4</button>
+          <button>5</button>
+          <button>6</button>
+          <button class="operator1">+</button>
+        </div>
+        <div>
+          <button>1</button>
+          <button>2</button>
+          <button>3</button>
+          <button class="operator2">-</button>
+        </div>
+        <div>
+          <button>.</button>
+          <button>0</button>
+          <button>/</button>
+          <button>*</button>
+        </div>
+        <div class="con">
+          <button class="resetBtn">RESET</button>
+          <button class="equalBtn">=</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Romeesa Kamal</a>.
+    </div>
+  </body>
+</html>
