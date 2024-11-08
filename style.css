@@ -278,7 +278,7 @@ button:hover{
   }
    button{
     height: 55px;
-    /* width: 85px; */
+    width: 85px;
   }
   .equalBtn, .resetBtn{
     width: 200px;
@@ -293,7 +293,7 @@ button:hover{
    }
 
 }
-@media (max-width: 510px){
+@media (max-width: 544px){
  .calculator{
   display: flex;
   justify-content: center;
@@ -304,13 +304,13 @@ button:hover{
  }
  button{
   height: 60px;
-  /* width: 80px; */
+  width: 80px;
  }
  .equalBtn, .resetBtn{
   width: 200px;
 }
 input{
-  width: 449px;
+  width: 445px;
 }
 .header{
   display: grid;
@@ -319,7 +319,7 @@ input{
  }
 }
 
-@media (max-width:498px){
+@media (max-width:512px){
   .calculator{
     display: flex;
     justify-content: center;
@@ -331,21 +331,21 @@ input{
   
    button{
     height: 65px;
-    /* width: 75px; */
+    width: 75px;
    }
    .equalBtn, .resetBtn{
-    width: 140px;
+    width: 190px;
   }
   input{
-    width: 430px;
+    width: 412px;
   }
   .header{
     display: grid;
-    grid-template-columns: 1.5rem 18.5rem 2.5rem;
+    grid-template-columns:  0.5rem 18rem 1rem;
     grid-gap: 30px;
    }
   }
-@media (max-width:478px){
+@media (max-width:462px){
   .calculator{
     display: flex;
     justify-content: center;
@@ -358,21 +358,21 @@ input{
  
    button{
     height: 70px;
-    /* width: 70px; */
+    width: 70px;
    }
    .equalBtn, .resetBtn{
     width: 180px;
   }
   input{
-    width: 410px;
+    width: 400px;
   }
   .header{
     display: grid;
-    grid-template-columns: 1rem 18rem 2rem;
+    grid-template-columns: 0.5rem 17.5rem 1rem;
     grid-gap: 30px;
    }
   }
-@media (max-width:460px){
+@media (max-width:458px){
   .calculator{
     display: flex;
     justify-content: center;
@@ -384,23 +384,23 @@ input{
    }
    button{
     height: 75px;
-    /* width: 65px; */
+    width: 65px;
    }
    
    .equalBtn, .resetBtn{
-    width: 170px;
+    width: 165px;
   }
   input{
-    width: 390px;
+    width: 370px;
   }
   .header{
     display: grid;
-    grid-template-columns: 2rem 17rem 1rem;
+    grid-template-columns: 0.5rem 15.5rem 1.5rem;
     grid-gap: 30px;
    }
   }
 
-@media (max-width:444px){
+@media (max-width:398px){
   .calculator{
     display: flex;
     justify-content: center;
@@ -412,7 +412,7 @@ input{
  
    button{
     height: 80px;
-    /* width: 60px; */
+    width: 60px;
    }
    .equalBtn, .resetBtn{
     width: 160px;
@@ -421,12 +421,12 @@ input{
     width: 350px;
   }
   .header{
-    display: grid;
-    grid-template-columns: 1rem 16rem 1rem;
-    grid-gap: 30px;
+    /* display: grid; */
+    /* grid-template-columns:10px 350px 20px; */
+    /* grid-gap: 30px; */
    }
   }
-@media (max-width:418px){
+/* @media (max-width:418px){
   .calculator{
     display: flex;
     justify-content: center;
@@ -438,7 +438,7 @@ input{
   
    button{
     height: 85px;
-    /* width: 55px; */
+    width: 55px;
    }
    .equalBtn, .resetBtn{
     width: 150px;
@@ -451,8 +451,8 @@ input{
     grid-template-columns: 1rem 15rem 1rem;
     grid-gap: 30px;
    }
-  }
-@media (max-width:396px){
+  } */
+@media (max-width:388px){
   .calculator{
     display: flex;
     justify-content: center;
@@ -461,17 +461,17 @@ input{
    }
    button{
     height: 95px;
-    /* width: 50px; */
+    width: 50px;
    }
    .equalBtn, .resetBtn{
     width: 140px;
   }
   input{
-    width: 330px;
+    width: 310px;
   }
   .header{
     display: grid;
-    grid-template-columns: 1rem 15rem 1rem;
+    grid-template-columns: 5rem 10rem 4rem;
     grid-gap: 30px;
    }
   }
@@ -507,7 +507,7 @@ input{
    }
    button{
     height: 105px;
-    /* width: 40px; */
+    width: 40px;
    }
    .equalBtn, .resetBtn{
     width: 120px;
