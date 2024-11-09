@@ -421,12 +421,12 @@ input{
     width: 350px;
   }
   .header{
-    /* display: grid; */
-    /* grid-template-columns:10px 350px 20px; */
-    /* grid-gap: 30px; */
+    display: grid;
+    grid-template-columns:10px 350px 20px;
+    grid-gap: 30px;
    }
   }
-/* @media (max-width:418px){
+@media (max-width:418px){
   .calculator{
     display: flex;
     justify-content: center;
@@ -451,7 +451,7 @@ input{
     grid-template-columns: 1rem 15rem 1rem;
     grid-gap: 30px;
    }
-  } */
+  }
 @media (max-width:388px){
   .calculator{
     display: flex;
