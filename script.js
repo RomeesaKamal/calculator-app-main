@@ -20,6 +20,7 @@ arr.forEach((button) => {
       input.value = string;
     }
   });
+  
   const toggleSwitch = document.getElementById('toggleSwitch');
 let currentTheme = 1;
 
@@ -35,6 +36,5 @@ toggleSwitch.addEventListener('click', () => {
 });
 
 });
-
 
   
