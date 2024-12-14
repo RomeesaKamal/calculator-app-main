@@ -17,7 +17,7 @@
     <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
     <style>
       .attribution {
-        font-size: 11px;
+        font-size: 16px;
         text-align: center;
       }
       .attribution a {
@@ -28,8 +28,10 @@
   </head>
   <body>
     <div class="calculator">
+      <header>
       <div class="header">
-        <div class="title">calc</div>
+        <div class="title">
+          <h>calc</h1></div>
         <div class="theme-label">THEME</div>
         <div class="theme-controls">
           <div class="theme-options">
@@ -42,7 +44,11 @@
           </div>
         </div>
       </div>
+    </header>
+    <div>
       <input type="text" placeholder="0" id="inputBox" />
+    </div>
+      <main>
       <div class="calculatorBtn">
         <div>
           <button>7</button>
@@ -73,15 +79,17 @@
           <button class="equalBtn">=</button>
         </div>
       </div>
+    </main>
     </div>
 
     <script src="script.js"></script>
-
+<footer>
     <div class="attribution">
       Challenge by
       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
         >Frontend Mentor</a
       >. Coded by <a href="#">Romeesa Kamal</a>.
     </div>
+  </footer>
   </body>
 </html>
