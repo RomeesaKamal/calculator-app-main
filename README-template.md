@@ -65,7 +65,7 @@ The app is designed to be fast, lightweight, and accessible, making it a practic
 
 - **HTML**: Structuring the content of the app.
 - **CSS**: Styling the layout and making it visually appealing.
-- **JavaScript**: Fetching data from the API and dynamically updating the UI.
+- **JavaScript**: For calculaor logics.
 
 ### Screenshot
 
